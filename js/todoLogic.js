@@ -51,8 +51,7 @@
 			var item = this.model.create({
 				id: this._getNewId(),
 				status: false,
-				content: content,
-				insertDate: +new Date()
+				content: content
 			});
 
 			this.addLocalStorage(item);
