@@ -49,10 +49,6 @@
 						return this.get('status') ? '#d9d9d9' : '';
 					}
 				}
-			},
-			// 登録日
-			insertDate: {
-				type: 'number'
 			}
 		}
 	});

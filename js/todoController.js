@@ -160,7 +160,7 @@
 		 * @returns アイテムID
 		 */
 		_getSelectedItemId: function(targetElem) {
-			return $(targetElem).find(	'input[data-h5-bind="id"]').val();
+			return $(targetElem).find('input[data-h5-bind="id"]').val();
 		},
 		/**
 		 * set toggle-all button status
